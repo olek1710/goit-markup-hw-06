@@ -378,6 +378,24 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <h3 class="social-title">Subscribe</h3>
+          <form class="sub-form">
+            <input
+              type="email"
+              class="sub-email"
+              name="user-email"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="sub-button">
+              <span>Subscribe</span
+              ><svg class="sub-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-sub-icon"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -387,7 +405,9 @@
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
-        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <h3 class="modal-title">
+          Leave your contacts and we will call you back
+        </h3>
         <form class="modal-form">
           <div class="modal-field">
             <label class="modal-box">
@@ -449,7 +469,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-field ">
+          <div class="modal-field policy-field">
             <input
               class="modal-check vissualy-hidden"
               id="policy"
@@ -459,7 +479,8 @@
               required
             />
             <label for="policy" class="check-text"
-              >I accept the terms and conditions of the <a href="">Privacy Policy></a></label
+              >I accept the terms and conditions of the&nbsp;
+              <a href="">Privacy Policy</a></label
             >
           </div>
 
